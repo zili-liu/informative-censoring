@@ -1,6 +1,7 @@
 tic
 format short
 clc;clear;close;
+
 %% === model parameters ===
 n = 200; p = 10; n0 = 2;
 N = 500;
@@ -11,9 +12,7 @@ rho = rho(1);
 sigma = rho.^(abs(ama));
 
 %% === 'control' parameter ===
-
 a = 100;  % P = 60
-
 
 %% === True Beta ===
 
